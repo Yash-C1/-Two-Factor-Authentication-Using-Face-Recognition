@@ -5,7 +5,7 @@ User authentication is very commonly used in most of the applications these days
 It drastically reduces the chances of successful unauthorized access by verifying the identity of account users. However by traditional ways of user authentication, any other person
 having your User ID and Password will easily be able to login and access your account. Hence this is a project designed with an additional feature of face recognition along with the traditional User ID and password as it is.
 
-Database used : MongoDB
+Database used : MongoDB  
 Libraries : OpenCV
 
 Working-
