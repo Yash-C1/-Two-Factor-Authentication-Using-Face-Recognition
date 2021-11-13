@@ -5,6 +5,9 @@ User authentication is very commonly used in most of the applications these days
 It drastically reduces the chances of successful unauthorized access by verifying the identity of account users. However by traditional ways of user authentication, any other person
 having your User ID and Password will easily be able to login and access your account. Hence this is a project designed with an additional feature of face recognition along with the traditional User ID and password as it is.
 
+Database used : MongoDB
+Libraries : OpenCV
+
 Working-
 1. If you are a new user, you have to register yourself on this portal.
 2. While registering, on clicking the submit button to submit your details, the application will capture your photographs which will be stored in an online database based on which the ML model will be trained.
@@ -19,3 +22,4 @@ Note-
 1. There is no need to install any additional packages.
 2. Download the whole file and run the app.py file from the terminal using the command "streamlit run app.py"
 3. Only if you face a error, try installing open cv extentions using the command "pip install opencv-contrib-python" and rerun the code.
+4. It will take some time while registering and logging in since it has to deal with a large number of photos and save them into the database to train the model.
